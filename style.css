@@ -1,0 +1,60 @@
+#body{
+    background-color: rgb(240, 204, 255);
+}
+#mainbox{
+    border: 2px solid black;
+    width: 700px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 350px;
+     background-color: rgb(249, 234, 255);
+     border-radius: 10px;
+     text-align: center;
+     overflow: hidden;
+     overflow-wrap: anywhere;
+}
+#text{
+    width: 400px;
+    height: 30px;
+    font-size: 25px;
+}
+#line{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+li{
+    overflow-wrap: anywhere;
+    display: flex;
+    justify-content: space-around;
+}
+.nonactive{
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    #mainbox {
+        width: 95%;
+        max-width: 95%;
+        min-height: 500px;
+
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    #text {
+        width: 100%;
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    li {
+        padding: 8px 0;
+        flex-wrap: wrap;
+    }
+
+    #libtns {
+        display: flex;
+        gap: 5px;
+    }
+}
