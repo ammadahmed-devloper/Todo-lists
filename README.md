@@ -1,2 +1,1 @@
-# javascript-projects-2026
-A collection of JavaScript projects built to improve my web development skills. Includes interactive apps, games, calculators, DOM manipulation, events, APIs, and other practical projects using HTML, CSS, and JavaScript. 🚀
+A simple and interactive To-Do List app built with HTML, CSS, and JavaScript. Users can add, complete, and delete tasks while practicing DOM manipulation, event handling, and JavaScript fundamentals. 📝🚀
